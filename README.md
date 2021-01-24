@@ -31,4 +31,14 @@
 ={keyword:none,permission:none;ps:可添加群号}\n'
 # '知乎日报
 ={keyword:zhihu or 知乎日报 ,permission:任何会话}\n'
-'所有模块已于2021-01-23 16:03全部实现'
+# '历史上的今天
+={keyword：历史上的今天，peimission:仅限群聊}\n'
+# '网易云热评
+= {keyword：热评 or 网易云热评 or 网易云评论，permissin：仅限群聊}\n
+# '周公解梦
+={keyword：周公解梦 or 梦的解析 or 解梦，permission：仅限群聊}\n'
+# '微博热搜
+={keyword：微博热搜 or微博 or 热搜 ，permission： 仅限群聊}\n'
+# '火星语翻译
+={keyword：火星语 or 火星文 or  火星语转换 or 火星文转换，permission：仅限群聊}\n'
+'所有模块已于2021-01-24 12:26全部实现'
