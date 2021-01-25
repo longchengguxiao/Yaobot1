@@ -43,4 +43,6 @@
 ={keyword：火星语 or 火星文 or  火星语转换 or 火星文转换，permission：仅限群聊}\n'
 # '路径查看 
 = {keyword: distance or 路径选择 or 路径查看 or 路径推送 permission: 任何会话}\n'
-# '所有模块已于2021-01-24 12:26全部实现'
+# '番剧更新'
+={keyword:bangumi or 番剧查询 or 番剧,perimission : 任何会话}\n
+# '所有模块已于2021-01-25 23:57全部实现'
