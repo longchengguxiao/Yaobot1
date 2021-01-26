@@ -45,5 +45,10 @@
 = {keyword: distance or 路径选择 or 路径查看 or 路径推送 permission: 任何会话}\n'
 # '番剧更新'
 ={keyword:bangumi or 番剧查询 or 番剧,perimission : 任何会话}\n
-# '所有模块已于2021-01-25 23:57全部实现'
+# 猜歌名
+={keyword = 猜歌名 and 提示 ,permission : 仅群聊}\n
+# 网抑云评论
+={keyword = 网抑云 or 网抑，permission = 任意会话}\n
+#
+# '所有模块已于2021-01-26 22:55全部实现'
 # 已于2021-01-26 实现异步爬虫，更高效
