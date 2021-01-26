@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 22 20:24:13 2021
 
-@author: Lenovo
-"""
     
 from baike import getBaike
 from nonebot.command import CommandSession
@@ -11,7 +6,7 @@ from nonebot.experimental.plugin import on_command
 
 
 __plugin_name__ = '百度'
-__plugin_usage__ = '用法： 对我说 "ping"，我会回复 "pong!"'
+__plugin_usage__ = '用法： 对我说 "百度"，我会回复 "百科内容"'
 
 def get_baike(msg):
     ret = getBaike(msg,no=[1,[0]])
