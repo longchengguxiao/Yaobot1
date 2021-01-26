@@ -17,7 +17,7 @@ __plugin_usage__ = '用法： 对我说 "真心话"，我会回复 "回答"'
 async def _(session: CommandSession):
     num = random.randrange(0,55)
     list_1 = []
-    path = r'D:\luciabot\useless\真心话.txt'
+    path = 
     with open(path,'r',encoding='utf-8') as f:
         list_1 = f.readlines()    
     await session.send(list_1[num])
