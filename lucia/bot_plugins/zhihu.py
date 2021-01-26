@@ -18,10 +18,6 @@ import json
 
 __plugin_name__ = '知乎'
 
-DAILY_LATEST_API_URL = 'https://news-at.zhihu.com/api/4/news/latest'
-DAILY_STORY_URL_FORMAT = 'https://daily.zhihu.com/story/{}'
-
-
 @cached(ttl=5 * 60)
 async def get_latest_news() -> Optional[List[Dict[str, Any]]]:
     headers = {'content-type': 'application/json'}
