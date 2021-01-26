@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 23 07:39:00 2021
 
-@author: Lenovo
-"""
 from nonebot.command import CommandSession
 from jieba import posseg
 from nonebot.experimental.plugin import on_command
@@ -66,7 +61,6 @@ async def get_weather(city_name):
 
 def get_info(city_code):
     try:
-        url = 'http://www.weather.com.cn/weather/' + city_code + '.shtml'
         r = requests.get(url)
         r.encoding = 'utf-8'
         soup = BeautifulSoup(r.text, 'html.parser')
