@@ -17,7 +17,6 @@ async def _():
     bot = nonebot.get_bot()
     now = datetime.now(pytz.timezone('Asia/Shanghai'))
     try:
-        await bot.send_group_msg(group_id=681178238,
-                                 message=f'现在是{now.hour}点整啦，还不赶快去学习！')
+        await bot.send_group_msg()
     except CQHttpError:
         pass
