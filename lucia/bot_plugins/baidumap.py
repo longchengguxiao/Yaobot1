@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 17:35:18 2021
-
-@author: Lenovo
-"""
 
 __plugin_name__ = '地理信息推送'
 
