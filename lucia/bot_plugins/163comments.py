@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 09:49:17 2021
-
-@author: Lenovo
-"""
-
-url = 'https://api.66mz8.com/api/music.163.php?format=json'
 #headers = {
 #    'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'
 #    }
