@@ -1,14 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 11:28:13 2021
 
-@author: Lenovo
-"""
 __plugin_name__ = '火星语转换'
-
-
-Appkey = '7a036be22fcd4f19890b8d938a2ffea7'
-URL = 'http://japi.juhe.cn/charconvert/change.from?text={}&type=2&key={}'
 #headers = {
 #    'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'
 #    }
