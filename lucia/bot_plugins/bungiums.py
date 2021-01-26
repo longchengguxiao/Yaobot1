@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 25 23:27:07 2021
-
-@author: Lenovo
-"""
 
 __plugin_name__='番剧更新'
 
-URL = 'https://bangumi.bilibili.com/web_api/timeline_global'
 headers = {'content-type': 'application/json'}
 import aiohttp
 import asyncio
