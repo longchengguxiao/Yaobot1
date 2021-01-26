@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 23 06:56:44 2021
 
-@author: Lenovo
-"""
 
 from typing import Optional, List, Dict, Any
 from nonebot.command import CommandSession
