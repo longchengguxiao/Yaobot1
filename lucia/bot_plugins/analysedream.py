@@ -1,13 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 11:47:07 2021
 
-@author: Lenovo
-"""
-
-Appkey = '28637cbb640e97276bcae6f0ca459141'
-
-URL = 'http://v.juhe.cn/dream/query?q={}&cid=&full=1&key={}'
 
 #headers = {
 #    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'
