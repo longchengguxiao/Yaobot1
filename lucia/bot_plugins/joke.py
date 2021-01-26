@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 22 00:19:19 2021
 
-@author: Lenovo
-"""
 
 __plugin_name__ = 'joke'
 __plugin_usage__ = '用法： 对我说 "笑话"，我会回复 "回答"'
@@ -14,8 +9,8 @@ import requests
 import random
 
 def xiaobing(msg):
-    uid = '5175429989'
-    source = '209678993'
+    uid = 
+    source = 
     SUB = '_2A25NA9ueDeRhGeNL7VsV8yzKwzmIHXVuD-XWrDV8PUJbkNANLUzskW1NSOSBA5oIbRA787zNg4wNSq25x2t1qOLe'
     url_send = 'https://api.weibo.com/webim/2/direct_messages/new.json'
     data = {
