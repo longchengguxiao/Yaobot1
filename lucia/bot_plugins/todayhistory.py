@@ -1,15 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 10:56:40 2021
 
-@author: Lenovo
-"""
 #+str(data.get('month'))+'月'+str(data.get('day'))+'日'
 __plugin_name__ = '历史上的今天'
-
-Appkey = 'c3de2e9cb61d09db2b80d3e10efe5dc3'
-
-URL = 'http://api.juheapi.com/japi/toh?key={}&v=1.0&month={}&day={}'
 
 #headers ={
 #    'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'
