@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 10:41:29 2021
 
-@author: Lenovo
-"""
 
 __plugin_name__ = '微博热搜'
 from nonebot.command import CommandSession
@@ -11,9 +6,6 @@ import aiohttp
 import asyncio
 import json
 from nonebot.experimental.plugin import on_command
-
-URL = 'http://api.hmister.cn/weibo/'
-
 #headers = {
 #    'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'
 #    }
