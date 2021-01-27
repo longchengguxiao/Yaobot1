@@ -1,11 +1,11 @@
 # Yaobot1
 基于nonebot的说明
 '2021-01-23更新 v1.2.1\n现已开启功能：\n'
-# '属性
+# '属性2.0
 ={keyword:attribute or 属性 or 今日属性 or 特性 or 我的特性, permission:群聊成员}\n'
 # '百科
 ={keyword:百度 or 百度百科 or 百度搜索 or 搜索 or 度娘, permission:群聊成员}\n'
-# '国内疫情查询
+# '国内疫情查询2.0
 ={keyword:疫情 or 今日疫情 or 疫情查询 or 查疫情,permission:群聊成员}\n'
 # '开发日志
 ={keyword:log or 更新日志,permission: 仅超级管理}\n' 
@@ -31,7 +31,7 @@
 ={keyword:none,permission:none;ps:可添加群号}\n'
 # '知乎日报
 ={keyword:zhihu or 知乎日报 ,permission:任何会话}\n'
-# '历史上的今天
+# '历史上的今天2.0
 ={keyword：历史上的今天，peimission:仅限群聊}\n'
 # '网易云热评
 = {keyword：热评 or 网易云热评 or 网易云评论，permissin：仅限群聊}\n
@@ -49,6 +49,8 @@
 ={keyword = 猜歌名 and 提示 ,permission : 仅群聊}\n
 # 网抑云评论
 ={keyword = 网抑云 or 网抑，permission = 任意会话}\n
-#
+# 禁言
+={keyword = '暗影冲击'+空格+@+时间（分钟），permission：仅限群管理}
+# 
 # '所有模块已于2021-01-26 22:55全部实现'
 # 已于2021-01-26 实现异步爬虫，更高效
