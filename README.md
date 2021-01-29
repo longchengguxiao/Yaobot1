@@ -4,7 +4,7 @@
 # '属性2.0
 ={keyword:attribute or 属性 or 今日属性 or 特性 or 我的特性, permission:群聊成员}\n'
 # '百科
-={keyword:百度 or 百度百科 or 百度搜索 or 搜索 or 度娘, permission:群聊成员}\n'
+={keyword:百度 or 百度百科 or 百度搜索 or 搜索 or 度娘, permission:群聊成员}\n'（感谢github项目baike_api）
 # '国内疫情查询2.0
 ={keyword:疫情 or 今日疫情 or 疫情查询 or 查疫情,permission:群聊成员}\n'
 # '开发日志
@@ -30,7 +30,7 @@
 # '迎新入群
 ={keyword:none,permission:none;ps:可添加群号}\n'
 # '知乎日报
-={keyword:zhihu or 知乎日报 ,permission:任何会话}\n'
+={keyword:zhihu or 知乎日报 ,permission:任何会话}\n'（感谢知乎提供的api）
 # '历史上的今天2.0
 ={keyword：历史上的今天，peimission:仅限群聊}\n'
 # '网易云热评
@@ -42,7 +42,7 @@
 # '火星语翻译
 ={keyword：火星语 or 火星文 or  火星语转换 or 火星文转换，permission：仅限群聊}\n'
 # '路径查看 
-= {keyword: distance or 路径选择 or 路径查看 or 路径推送 permission: 任何会话}\n'
+= {keyword: distance or 路径选择 or 路径查看 or 路径推送 permission: 任何会话}\n'（感谢百度地图提供的api）
 # '番剧更新'
 ={keyword:bangumi or 番剧查询 or 番剧,perimission : 任何会话}\n
 # 猜歌名
@@ -55,6 +55,7 @@
 ={keyword = '给予王的馈赠' + @ + 礼物id（目前不可用）,permission:仅限群管理}
 # 土味情话
 ={keyword = '你有什么想对我说的吗',permission:任意会话}
-# 
+# 百度翻译
+={keyword='翻译',permission:任意会话}\n(感谢百度翻译提供的api)
 # '所有模块已于2021-01-28 20:55全部实现'
 # 已于2021-01-26 实现异步爬虫，更高效
