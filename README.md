@@ -35,8 +35,6 @@
 ={keyword：历史上的今天，peimission:仅限群聊，支持自然语言解析}\n'
 # '网易云热评 （为保障核心功能的正常运行，现已停止，如有需要请联系维护者）
 = {keyword：热评 or 网易云热评 or 网易云评论，permissin：仅限群聊}，支持自然语言解析\n
-# 网抑云
-={keyword：网抑，permission：仅群聊}
 # '周公解梦
 ={keyword：周公解梦 or 梦的解析 or 解梦，permission：仅限群聊}\n'
 # '微博热搜
@@ -57,6 +55,8 @@
 ={keyword = '给予王的馈赠' + @ + 礼物id（目前不可用）,permission:仅限群管理}
 # 土味情话
 ={keyword = '你有什么想对我说的吗',permission:任意会话}
+# 文字转语音
+={keyword = ‘tts’or‘说句人话’，permission:仅群聊}
 # 百度翻译
 ={keyword='翻译',permission:任意会话}\n(感谢百度翻译提供的api)
 # 宠物系统
