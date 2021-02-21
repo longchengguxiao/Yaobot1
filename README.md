@@ -4,19 +4,22 @@
 # '属性2.0
 ={keyword:attribute or 属性 or 今日属性 or 特性 or 我的特性, permission:群聊成员，支持自然语言解析}\n'
 # '百科
+（受黑名单以及技能cd影响）
 ={keyword:百度 or 百度百科 or 百度搜索 or 搜索 or 度娘, permission:群聊成员，支持自然语言解析}\n'（感谢github项目baike_api）
-# '国内疫情查询2.0
+# '国内疫情查询2.0（由于api失效已移除）
 ={keyword:疫情 or 今日疫情 or 疫情查询 or 查疫情,permission:群聊成员，支持自然语言解析}\n'
 # '开发日志 （为保障核心功能的正常运行，现已停止，如有需要请联系维护者）
 ={keyword:log or 更新日志,permission: 仅超级管理}\n' 
 # '讲笑话
 ={keyword:joke or 讲个笑话吧 or 来一个笑话 or 笑话 or 说一个笑话,permission:任何聊天，支持自然语言解析}\n' 
 # '音乐查询推送
+（受黑名单以及技能cd影响）
 ={keyword:music or 点歌 or 音乐, permission:仅限群聊，支持自然语言解析}\n'
 # '国外疫情查询 （为保障核心功能的正常运行，现已停止，如有需要请联系维护者）
 ={keyword:overseas or 海外情况 or 海外情况查询,permission: 仅限群聊}\n'
 # 'setu2.0
-={keyword:壁纸, permission: 仅超级管理, ps:谨慎使用，可能被风控}\n'
+（受黑名单以及技能cd影响）
+={keyword:壁纸, permission: 仅群聊, ps:谨慎使用，可能被风控}\n'
 # 'ping
 = {keyword:ping, permission: 仅超级管理, ps:测试bot的第一个样例}\n'
 # '真心话题库
@@ -48,6 +51,7 @@
 # 猜歌名
 ={keyword = 猜歌名 and 提示 ,permission : 仅群聊}\n
 # 网抑云评论
+（受黑名单以及技能cd影响）
 ={keyword = 网抑云 or 网抑，permission = 任意会话，支持自然语言解析}\n
 # 禁言
 ={keyword = '暗影冲击'+空格+@+时间（分钟），permission：仅限群管理}
@@ -60,12 +64,16 @@
 # 百度翻译
 ={keyword='翻译',permission:任意会话}\n(感谢百度翻译提供的api)
 # 宠物系统
+（受黑名单以及技能cd影响）
 ={keyword = '宠物系统',permission:仅群聊}宠物系统的详情请回复宠物系统来查看
 # 鲁迅表情包
+（受黑名单以及技能cd影响）
  = {keyword = '鲁迅说+空格+说的话',permission:仅群聊}
 # 伪造聊天记录
+（受黑名单以及技能cd影响）
  = {keyword = '伪造+空格+@+说的话'，permission：仅群聊 }
  # 我有一个朋友说
+ （受黑名单以及技能cd影响）
  ={keyword = '我有一个朋友说+空格+说的话',permission:仅群聊}
  # 发送群公告
  ={keyword：千里传音，permission：管理或超管}
@@ -85,6 +93,9 @@
 ={keyword=‘留言+空格+留言内容（+空格+署名）’，若无署名则默认为QQ昵称}
 # 单词系统
 ={keyword = '单词系统'}
+# 黑名单
+={keyword=“暗杀/拉黑/黑名单+空格+@（+原因）”,原因若不填默认为无理由}
+={keyword="拉白/解除暗杀/解除拉黑+空格+@"}
 # 大部分模块已于2021-02-05实现语言解析
 # 全部模块已经于2021-02-05完善
 # '所有模块已于2021-02-12 10：05全部实现'
